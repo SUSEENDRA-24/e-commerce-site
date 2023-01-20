@@ -2,7 +2,7 @@ html{
     height: 100%;
 }
 body{
-   
+    background-color: antiquewhite;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12pt;
 }
@@ -11,7 +11,7 @@ body{
     color: #212529;
 }
 
-.navbar{
+.fbar{
     background-color:whitesmoke;
     color:antiquewhite;
 }
@@ -83,15 +83,16 @@ footer{
 /* cart-items */
 .cart-btn {
   position: relative;
-  display: flex;
-  justify-content: flex-end;
+  display: inline-block;
+  /* justify-content: flex-end; */
 }
 
 #cart {
+  color: antiquewhite;
   position: relative;
   font-size: 2rem;
   cursor: pointer;
-  margin: 1em 4em 0 0;
+  /* margin: 1em 4em 0 0; */
 }
 
 .cart-quantity {
@@ -99,7 +100,7 @@ footer{
   background-color: red;
   padding: .2em .3em;
   position: absolute;
-  margin: .8em 7.5em 0 0;
+  /* margin: .8em 7.5em 0 0; */
   right: 0;
   border: solid 2px red;
   border-radius: 15px;
@@ -130,7 +131,7 @@ footer{
 
 .add-to-cart {
   background-color: #212529;
-  color: white;
+  color: antiquewhite;
   position: absolute;
   right: 0;
   top: 65%;
@@ -176,12 +177,12 @@ footer{
   font-size: 1.5rem;
   float: right;
   margin: .5em 2em 0 0;
-  color: white;
+  color: antiquewhite;
   cursor: pointer;
 }
 
 .cart-is-empty {
-  color: white;
+  color: antiquewhite;
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: 1em;
@@ -196,11 +197,11 @@ footer{
 }
 
 .cart-total {
-  color: white;
+  color: antiquewhite;
 }
 
 .total-price {
-  color: white;
+  color: antiquewhite;
   font-size: 2rem;
   display: block;
 }
@@ -209,7 +210,7 @@ footer{
   font-size: 1rem;
   font-weight: bolder;
   background-color: green;
-  color: white;
+  color: antiquewhite;
   padding: 1em 2em;
   border-radius: 10px;
   outline: none;
@@ -237,7 +238,7 @@ footer{
 }
 
 .cart-price {
-  color: white;
+  color: antiquewhite;
   font-size: 1.5rem;
   font-weight: bolder;
 }
@@ -251,7 +252,7 @@ footer{
 .remove-btn {
   padding: 1em 2em;
   background-color: red;
-  color: white;
+  color: antiquewhite;
   outline: none;
   border: none;
   cursor: pointer;
